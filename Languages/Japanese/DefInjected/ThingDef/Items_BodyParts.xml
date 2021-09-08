@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- bionics (spacer tech) -->
+  <BionicBeak.label>強化クチバシ</BionicBeak.label>
+  <BionicBeak.description>進化した機械化されたクチバシです。鳥人特有の発声器官とクチバシの機械構造を合わせる事であらゆる声紋、あらゆる音声を再現することができます。さらに特殊な音波を発生させることで会話相手の精神に作用を与えることが可能です。外部接続端子も備えていて肉体に接続したままオーディオスピーカーとして機能させることもできます。たいてい生物学的クチバシよりも優れています.</BionicBeak.description>
+</LanguageData>

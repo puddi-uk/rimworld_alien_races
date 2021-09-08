@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Name="BirdFactionBase" Abstract="True">
+    <goodwillDailyGain>0.20</goodwillDailyGain>
+    <goodwillDailyFall>0.40</goodwillDailyFall>
+    <factionIconPath>WorldIcon/BirdIcon1</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+  <FactionDef ParentName="BirdFactionBase">
+    <defName>Bird_OutlanderCivil</defName>
+    <label>Owl civil outlander union</label>
+    <description>They are friendly and they want to help each other.</description>
+    <categoryTag>Outlander</categoryTag>
+    <listOrderPriority>29</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>prime councilor</leaderTitle>
+    <fixedName>Owl Cooperatives</fixedName>
+    <pawnSingular>outlander</pawnSingular>
+    <pawnsPlural>outlanders</pawnsPlural>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.95</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.05</commonality>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, standard mix -->
+        <kindDef>Combat</kindDef>
+        <options>
+          <Owl_Villager>5</Owl_Villager>
+          <Owl_Town_Guard>10</Owl_Town_Guard>
+          <Owl_Grenadier_Destructive>1.5</Owl_Grenadier_Destructive>
+          <Owl_Mercenary_Slasher>7</Owl_Mercenary_Slasher>
+          <Owl_Mercenary_Gunner>10</Owl_Mercenary_Gunner>
+          <Owl_Mercenary_Elite>10</Owl_Mercenary_Elite>
+          <Owl_Town_Councilman>10</Owl_Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Owl_Villager>20</Owl_Villager>
+          <Owl_Town_Guard>10</Owl_Town_Guard>
+          <Owl_Town_Councilman>10</Owl_Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Owl_Town_Trader>1</Owl_Town_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <Owl_Villager>3</Owl_Villager>
+          <Owl_Town_Guard>10</Owl_Town_Guard>
+          <Owl_Grenadier_Destructive>1.5</Owl_Grenadier_Destructive>
+          <Owl_Mercenary_Slasher>7</Owl_Mercenary_Slasher>
+          <Owl_Mercenary_Gunner>10</Owl_Mercenary_Gunner>
+          <Owl_Mercenary_Elite>10</Owl_Mercenary_Elite>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Owl_Villager>10</Owl_Villager>
+          <Owl_Town_Guard>10</Owl_Town_Guard>
+          <Owl_Grenadier_Destructive>1.5</Owl_Grenadier_Destructive>
+          <Owl_Mercenary_Slasher>7</Owl_Mercenary_Slasher>
+          <Owl_Mercenary_Gunner>10</Owl_Mercenary_Gunner>
+          <Owl_Mercenary_Elite>10</Owl_Mercenary_Elite>
+          <Owl_Town_Councilman>10</Owl_Town_Councilman>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <colorSpectrum>
+      <li>(0.65, 0.50, 0.70)</li>
+      <li>(0.75, 0.60, 0.90)</li>
+    </colorSpectrum>
+    <startingGoodwill>0</startingGoodwill>
+    <naturalColonyGoodwill>-50~50</naturalColonyGoodwill>
+  </FactionDef>
+  <FactionDef ParentName="BirdFactionBase">
+    <defName>Bird_OutlanderRough</defName>
+    <label>Vulture rough outlander union</label>
+    <description>They are Hunter.</description>
+    <listOrderPriority>29</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>general</leaderTitle>
+    <fixedName>Vulture Hegemony</fixedName>
+    <pawnSingular>outlander</pawnSingular>
+    <pawnsPlural>outlanders</pawnsPlural>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.95</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.05</commonality>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, standard mix -->
+        <kindDef>Combat</kindDef>
+        <options>
+          <Vulture_Villager>5</Vulture_Villager>
+          <Vulture_Town_Guard>10</Vulture_Town_Guard>
+          <Vulture_Grenadier_Destructive>1.5</Vulture_Grenadier_Destructive>
+          <Vulture_Mercenary_Slasher>7</Vulture_Mercenary_Slasher>
+          <Vulture_Mercenary_Gunner>10</Vulture_Mercenary_Gunner>
+          <Vulture_Mercenary_Elite>10</Vulture_Mercenary_Elite>
+          <Vulture_Town_Councilman>10</Vulture_Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Vulture_Villager>20</Vulture_Villager>
+          <Vulture_Town_Guard>10</Vulture_Town_Guard>
+          <Vulture_Town_Councilman>10</Vulture_Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Vulture_Town_Trader>1</Vulture_Town_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <Vulture_Villager>3</Vulture_Villager>
+          <Vulture_Town_Guard>10</Vulture_Town_Guard>
+          <Vulture_Grenadier_Destructive>1.5</Vulture_Grenadier_Destructive>
+          <Vulture_Mercenary_Slasher>7</Vulture_Mercenary_Slasher>
+          <Vulture_Mercenary_Gunner>10</Vulture_Mercenary_Gunner>
+          <Vulture_Mercenary_Elite>10</Vulture_Mercenary_Elite>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Vulture_Villager>10</Vulture_Villager>
+          <Vulture_Town_Guard>10</Vulture_Town_Guard>
+          <Vulture_Grenadier_Destructive>1.5</Vulture_Grenadier_Destructive>
+          <Vulture_Mercenary_Slasher>7</Vulture_Mercenary_Slasher>
+          <Vulture_Mercenary_Gunner>10</Vulture_Mercenary_Gunner>
+          <Vulture_Mercenary_Elite>10</Vulture_Mercenary_Elite>
+          <Vulture_Town_Councilman>10</Vulture_Town_Councilman>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <colorSpectrum>
+      <li>(0.20, 0.50, 0.80)</li>
+      <li>(0.20, 0.60, 1.00)</li>
+    </colorSpectrum>
+    <startingGoodwill>-80</startingGoodwill>
+    <naturalColonyGoodwill>-100~-80</naturalColonyGoodwill>
+  </FactionDef>
+  <FactionDef ParentName="BirdFactionBase">
+    <defName>Bird_TribeCivil</defName>
+    <label>Chicken savage tribe</label>
+    <description>Primitives that looks like a big chicken. It is said that They are escaped artificial race.</description>
+    <listOrderPriority>19</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canStageAttacks>true</canStageAttacks>
+    <geneticVariance>0.1</geneticVariance>
+    <fixedName>Kinship and Families, for Chicken</fixedName>
+    <pawnSingular>tribesman</pawnSingular>
+    <pawnsPlural>tribespeople</pawnsPlural>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <leaderTitle>chef</leaderTitle>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+        <!--Constant 1 at all points levels-->
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Neolithic_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Chicken_Tribal_Penitent>5</Chicken_Tribal_Penitent>
+          <Chicken_Tribal_Warrior>5</Chicken_Tribal_Warrior>
+          <Chicken_Tribal_Archer>10</Chicken_Tribal_Archer>
+          <Chicken_Tribal_Hunter>10</Chicken_Tribal_Hunter>
+          <Chicken_Tribal_HeavyArcher>10</Chicken_Tribal_HeavyArcher>
+          <Chicken_Tribal_Berserker>5</Chicken_Tribal_Berserker>
+          <Chicken_Tribal_ChiefRanged>3</Chicken_Tribal_ChiefRanged>
+          <Chicken_Tribal_ChiefMelee>1.5</Chicken_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Chicken_Tribal_Archer>10</Chicken_Tribal_Archer>
+          <Chicken_Tribal_Hunter>10</Chicken_Tribal_Hunter>
+          <Chicken_Tribal_HeavyArcher>10</Chicken_Tribal_HeavyArcher>
+          <Chicken_Tribal_ChiefRanged>5</Chicken_Tribal_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Chicken_Tribal_Penitent>10</Chicken_Tribal_Penitent>
+          <Chicken_Tribal_Warrior>10</Chicken_Tribal_Warrior>
+          <Chicken_Tribal_Berserker>10</Chicken_Tribal_Berserker>
+          <Chicken_Tribal_ChiefMelee>5</Chicken_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Chicken_Tribal_Warrior>20</Chicken_Tribal_Warrior>
+          <Chicken_Tribal_Archer>10</Chicken_Tribal_Archer>
+          <Chicken_Tribal_Hunter>10</Chicken_Tribal_Hunter>
+          <Chicken_Tribal_HeavyArcher>10</Chicken_Tribal_HeavyArcher>
+          <Chicken_Tribal_Berserker>5</Chicken_Tribal_Berserker>
+          <Chicken_Tribal_ChiefRanged>3</Chicken_Tribal_ChiefRanged>
+          <Chicken_Tribal_ChiefMelee>1.5</Chicken_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Chicken_Tribal_Trader>1</Chicken_Tribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <Chicken_Tribal_Warrior>7</Chicken_Tribal_Warrior>
+          <Chicken_Tribal_Archer>10</Chicken_Tribal_Archer>
+          <Chicken_Tribal_Hunter>10</Chicken_Tribal_Hunter>
+          <Chicken_Tribal_HeavyArcher>10</Chicken_Tribal_HeavyArcher>
+          <Chicken_Tribal_Berserker>7</Chicken_Tribal_Berserker>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Chicken_Tribal_Warrior>7</Chicken_Tribal_Warrior>
+          <Chicken_Tribal_Archer>10</Chicken_Tribal_Archer>
+          <Chicken_Tribal_Hunter>10</Chicken_Tribal_Hunter>
+          <Chicken_Tribal_HeavyArcher>10</Chicken_Tribal_HeavyArcher>
+          <Chicken_Tribal_Berserker>7</Chicken_Tribal_Berserker>
+          <Chicken_Tribal_ChiefRanged>10</Chicken_Tribal_ChiefRanged>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <colorSpectrum>
+      <li>(0.85, 0.75, 0.57)</li>
+      <li>(0.95, 0.95, 0.57)</li>
+    </colorSpectrum>
+    <startingGoodwill>0</startingGoodwill>
+    <naturalColonyGoodwill>-50~50</naturalColonyGoodwill>
+  </FactionDef>
+  <FactionDef ParentName="BirdFactionBase">
+    <defName>Bird_TribeRough</defName>
+    <label>Cassowary savage tribe</label>
+    <description>Savage Primitives, dangerous Cassowaries. Fight! Violence! Blood! Yaaaaaah!</description>
+    <listOrderPriority>19</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canStageAttacks>true</canStageAttacks>
+    <geneticVariance>0.1</geneticVariance>
+    <fixedName>Cassowary Kingdom</fixedName>
+    <pawnSingular>tribesman</pawnSingular>
+    <pawnsPlural>tribespeople</pawnsPlural>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <leaderTitle>king</leaderTitle>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+        <!--Constant 1 at all points levels-->
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Neolithic_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Cassowary_Tribal_Penitent>5</Cassowary_Tribal_Penitent>
+          <Cassowary_Tribal_Warrior>5</Cassowary_Tribal_Warrior>
+          <Cassowary_Tribal_Archer>10</Cassowary_Tribal_Archer>
+          <Cassowary_Tribal_Hunter>10</Cassowary_Tribal_Hunter>
+          <Cassowary_Tribal_HeavyArcher>10</Cassowary_Tribal_HeavyArcher>
+          <Cassowary_Tribal_Berserker>5</Cassowary_Tribal_Berserker>
+          <Cassowary_Tribal_ChiefRanged>3</Cassowary_Tribal_ChiefRanged>
+          <Cassowary_Tribal_ChiefMelee>1.5</Cassowary_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Cassowary_Tribal_Archer>10</Cassowary_Tribal_Archer>
+          <Cassowary_Tribal_Hunter>10</Cassowary_Tribal_Hunter>
+          <Cassowary_Tribal_HeavyArcher>10</Cassowary_Tribal_HeavyArcher>
+          <Cassowary_Tribal_ChiefRanged>5</Cassowary_Tribal_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Cassowary_Tribal_Penitent>10</Cassowary_Tribal_Penitent>
+          <Cassowary_Tribal_Warrior>10</Cassowary_Tribal_Warrior>
+          <Cassowary_Tribal_Berserker>10</Cassowary_Tribal_Berserker>
+          <Cassowary_Tribal_ChiefMelee>5</Cassowary_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Cassowary_Tribal_Warrior>20</Cassowary_Tribal_Warrior>
+          <Cassowary_Tribal_Archer>10</Cassowary_Tribal_Archer>
+          <Cassowary_Tribal_Hunter>10</Cassowary_Tribal_Hunter>
+          <Cassowary_Tribal_HeavyArcher>10</Cassowary_Tribal_HeavyArcher>
+          <Cassowary_Tribal_Berserker>5</Cassowary_Tribal_Berserker>
+          <Cassowary_Tribal_ChiefRanged>3</Cassowary_Tribal_ChiefRanged>
+          <Cassowary_Tribal_ChiefMelee>1.5</Cassowary_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Cassowary_Tribal_Trader>1</Cassowary_Tribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <Cassowary_Tribal_Warrior>7</Cassowary_Tribal_Warrior>
+          <Cassowary_Tribal_Archer>10</Cassowary_Tribal_Archer>
+          <Cassowary_Tribal_Hunter>10</Cassowary_Tribal_Hunter>
+          <Cassowary_Tribal_HeavyArcher>10</Cassowary_Tribal_HeavyArcher>
+          <Cassowary_Tribal_Berserker>7</Cassowary_Tribal_Berserker>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Cassowary_Tribal_Warrior>7</Cassowary_Tribal_Warrior>
+          <Cassowary_Tribal_Archer>10</Cassowary_Tribal_Archer>
+          <Cassowary_Tribal_Hunter>10</Cassowary_Tribal_Hunter>
+          <Cassowary_Tribal_HeavyArcher>10</Cassowary_Tribal_HeavyArcher>
+          <Cassowary_Tribal_Berserker>7</Cassowary_Tribal_Berserker>
+          <Cassowary_Tribal_ChiefRanged>10</Cassowary_Tribal_ChiefRanged>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <colorSpectrum>
+      <li>(0.45, 0.85, 0.35)</li>
+      <li>(0.45, 0.95, 0.45)</li>
+    </colorSpectrum>
+    <startingGoodwill>-80</startingGoodwill>
+    <naturalColonyGoodwill>-100~-80</naturalColonyGoodwill>
+  </FactionDef>
+  <FactionDef>
+    <defName>Parrot_Pirate</defName>
+    <label>parrot pirate band</label>
+    <description>Parrot Pirates!? They use Fook and Peg leg?</description>
+    <listOrderPriority>9</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>captain</leaderTitle>
+    <colorSpectrum>
+      <li>(0.5, 0.45, 0.05)</li>
+      <li>(0.25, 0.80, 0.05)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+    <fixedName>Parrot Pirates</fixedName>
+    <pawnSingular>pirate</pawnSingular>
+    <pawnsPlural>pirates</pawnsPlural>
+    <factionNameMaker>NamerFactionPirate</factionNameMaker>
+    <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Parrot_Drifter>10</Parrot_Drifter>
+          <Parrot_Thrasher>3</Parrot_Thrasher>
+          <Parrot_Scavenger>10</Parrot_Scavenger>
+          <Parrot_Pirate>10</Parrot_Pirate>
+          <Parrot_Grenadier_EMP>0.5</Parrot_Grenadier_EMP>
+          <Parrot_Grenadier_Destructive>2</Parrot_Grenadier_Destructive>
+          <Parrot_Mercenary_Gunner>10</Parrot_Mercenary_Gunner>
+          <Parrot_Mercenary_Heavy>6</Parrot_Mercenary_Heavy>
+          <Parrot_Mercenary_Slasher>3</Parrot_Mercenary_Slasher>
+          <Parrot_Mercenary_Sniper>7</Parrot_Mercenary_Sniper>
+          <Parrot_Mercenary_Elite>10</Parrot_Mercenary_Elite>
+          <Parrot_PirateBoss>5</Parrot_PirateBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee-only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <Parrot_Thrasher>10</Parrot_Thrasher>
+          <Parrot_Mercenary_Slasher>10</Parrot_Mercenary_Slasher>
+          <Parrot_PirateBoss>5</Parrot_PirateBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <Parrot_Scavenger>10</Parrot_Scavenger>
+          <Parrot_Pirate>10</Parrot_Pirate>
+          <Parrot_Grenadier_EMP>0.5</Parrot_Grenadier_EMP>
+          <Parrot_Grenadier_Destructive>2</Parrot_Grenadier_Destructive>
+          <Parrot_Mercenary_Gunner>10</Parrot_Mercenary_Gunner>
+          <Parrot_Mercenary_Heavy>6</Parrot_Mercenary_Heavy>
+          <Parrot_Mercenary_Sniper>7</Parrot_Mercenary_Sniper>
+          <Parrot_Mercenary_Elite>10</Parrot_Mercenary_Elite>
+          <Parrot_PirateBoss>5</Parrot_PirateBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, explosives with ranged mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <Parrot_Grenadier_EMP>1</Parrot_Grenadier_EMP>
+          <Parrot_Grenadier_Destructive>10</Parrot_Grenadier_Destructive>
+          <Parrot_Mercenary_Gunner>1</Parrot_Mercenary_Gunner>
+          <Parrot_Mercenary_Heavy>10</Parrot_Mercenary_Heavy>
+          <Parrot_Mercenary_Elite>1</Parrot_Mercenary_Elite>
+          <Parrot_PirateBoss>1</Parrot_PirateBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, snipers only -->
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+        <options>
+          <Parrot_Mercenary_Sniper>10</Parrot_Mercenary_Sniper>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, drifters only (very rare) -->
+        <kindDef>Combat</kindDef>
+        <commonality>2.5</commonality>
+        <maxTotalPoints>1000</maxTotalPoints>
+        <options>
+          <Parrot_Drifter>10</Parrot_Drifter>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense, mainly ranged with melee mix-ins -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Parrot_Thrasher>3</Parrot_Thrasher>
+          <Parrot_Pirate>10</Parrot_Pirate>
+          <Parrot_Grenadier_Destructive>2</Parrot_Grenadier_Destructive>
+          <Parrot_Mercenary_Slasher>3</Parrot_Mercenary_Slasher>
+          <Parrot_Mercenary_Sniper>10</Parrot_Mercenary_Sniper>
+          <Parrot_Mercenary_Gunner>10</Parrot_Mercenary_Gunner>
+          <Parrot_Mercenary_Elite>10</Parrot_Mercenary_Elite>
+          <Parrot_PirateBoss>10</Parrot_PirateBoss>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <factionIconPath>World/WorldObjects/Expanding/PirateOutpost</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+  <FactionDef ParentName="BirdFactionBase">
+    <defName>Bird_TribeCivil2</defName>
+    <label>Dodo savage tribe</label>
+    <description>Primitives tribe. Kind perple, good tribes, slow living.</description>
+    <listOrderPriority>19</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canStageAttacks>true</canStageAttacks>
+    <geneticVariance>0.1</geneticVariance>
+    <fixedName>Dodo Village</fixedName>
+    <pawnSingular>tribesman</pawnSingular>
+    <pawnsPlural>tribespeople</pawnsPlural>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <leaderTitle>headman</leaderTitle>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+        <!--Constant 1 at all points levels-->
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Neolithic_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Dodo_Tribal_Penitent>5</Dodo_Tribal_Penitent>
+          <Dodo_Tribal_Warrior>5</Dodo_Tribal_Warrior>
+          <Dodo_Tribal_Archer>10</Dodo_Tribal_Archer>
+          <Dodo_Tribal_Hunter>10</Dodo_Tribal_Hunter>
+          <Dodo_Tribal_HeavyArcher>10</Dodo_Tribal_HeavyArcher>
+          <Dodo_Tribal_Berserker>5</Dodo_Tribal_Berserker>
+          <Dodo_Tribal_ChiefRanged>3</Dodo_Tribal_ChiefRanged>
+          <Dodo_Tribal_ChiefMelee>1.5</Dodo_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Dodo_Tribal_Archer>10</Dodo_Tribal_Archer>
+          <Dodo_Tribal_Hunter>10</Dodo_Tribal_Hunter>
+          <Dodo_Tribal_HeavyArcher>10</Dodo_Tribal_HeavyArcher>
+          <Dodo_Tribal_ChiefRanged>5</Dodo_Tribal_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Dodo_Tribal_Penitent>10</Dodo_Tribal_Penitent>
+          <Dodo_Tribal_Warrior>10</Dodo_Tribal_Warrior>
+          <Dodo_Tribal_Berserker>10</Dodo_Tribal_Berserker>
+          <Dodo_Tribal_ChiefMelee>5</Dodo_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Dodo_Tribal_Warrior>20</Dodo_Tribal_Warrior>
+          <Dodo_Tribal_Archer>10</Dodo_Tribal_Archer>
+          <Dodo_Tribal_Hunter>10</Dodo_Tribal_Hunter>
+          <Dodo_Tribal_HeavyArcher>10</Dodo_Tribal_HeavyArcher>
+          <Dodo_Tribal_Berserker>5</Dodo_Tribal_Berserker>
+          <Dodo_Tribal_ChiefRanged>3</Dodo_Tribal_ChiefRanged>
+          <Dodo_Tribal_ChiefMelee>1.5</Dodo_Tribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Dodo_Tribal_Trader>1</Dodo_Tribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <Dodo_Tribal_Warrior>7</Dodo_Tribal_Warrior>
+          <Dodo_Tribal_Archer>10</Dodo_Tribal_Archer>
+          <Dodo_Tribal_Hunter>10</Dodo_Tribal_Hunter>
+          <Dodo_Tribal_HeavyArcher>10</Dodo_Tribal_HeavyArcher>
+          <Dodo_Tribal_Berserker>7</Dodo_Tribal_Berserker>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Dodo_Tribal_Warrior>7</Dodo_Tribal_Warrior>
+          <Dodo_Tribal_Archer>10</Dodo_Tribal_Archer>
+          <Dodo_Tribal_Hunter>10</Dodo_Tribal_Hunter>
+          <Dodo_Tribal_HeavyArcher>10</Dodo_Tribal_HeavyArcher>
+          <Dodo_Tribal_Berserker>7</Dodo_Tribal_Berserker>
+          <Dodo_Tribal_ChiefRanged>10</Dodo_Tribal_ChiefRanged>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <colorSpectrum>
+      <li>(0.45, 0.35, 0.17)</li>
+      <li>(0.55, 0.55, 0.17)</li>
+    </colorSpectrum>
+    <startingGoodwill>30</startingGoodwill>
+    <naturalColonyGoodwill>0~60</naturalColonyGoodwill>
+  </FactionDef>
+  <FactionDef>
+    <defName>Penguin_Pirate</defName>
+    <label>penguin pirate band</label>
+    <description>They attacks quietly and silently. Human can not understand them.</description>
+    <listOrderPriority>9</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>boss</leaderTitle>
+    <colorSpectrum>
+      <li>(0.10, 0.15, 0.45)</li>
+      <li>(0.10, 0.15, 0.80)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+    <fixedName>The Purifiers of Penguins</fixedName>
+    <pawnSingular>pirate</pawnSingular>
+    <pawnsPlural>pirates</pawnsPlural>
+    <factionNameMaker>NamerFactionPirate</factionNameMaker>
+    <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>-60~25</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Penguin_Drifter>10</Penguin_Drifter>
+          <Penguin_Thrasher>3</Penguin_Thrasher>
+          <Penguin_Scavenger>10</Penguin_Scavenger>
+          <Penguin_Pirate>10</Penguin_Pirate>
+          <Penguin_Grenadier_EMP>0.5</Penguin_Grenadier_EMP>
+          <Penguin_Grenadier_Destructive>2</Penguin_Grenadier_Destructive>
+          <Penguin_Mercenary_Gunner>10</Penguin_Mercenary_Gunner>
+          <Penguin_Mercenary_Heavy>6</Penguin_Mercenary_Heavy>
+          <Penguin_Mercenary_Slasher>3</Penguin_Mercenary_Slasher>
+          <Penguin_Mercenary_Sniper>7</Penguin_Mercenary_Sniper>
+          <Penguin_Mercenary_Elite>10</Penguin_Mercenary_Elite>
+          <Penguin_PirateBoss>5</Penguin_PirateBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee-only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <Penguin_Thrasher>10</Penguin_Thrasher>
+          <Penguin_Mercenary_Slasher>10</Penguin_Mercenary_Slasher>
+          <Penguin_PirateBoss>5</Penguin_PirateBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <Penguin_Scavenger>10</Penguin_Scavenger>
+          <Penguin_Pirate>10</Penguin_Pirate>
+          <Penguin_Grenadier_EMP>0.5</Penguin_Grenadier_EMP>
+          <Penguin_Grenadier_Destructive>2</Penguin_Grenadier_Destructive>
+          <Penguin_Mercenary_Gunner>10</Penguin_Mercenary_Gunner>
+          <Penguin_Mercenary_Heavy>6</Penguin_Mercenary_Heavy>
+          <Penguin_Mercenary_Sniper>7</Penguin_Mercenary_Sniper>
+          <Penguin_Mercenary_Elite>10</Penguin_Mercenary_Elite>
+          <Penguin_PirateBoss>5</Penguin_PirateBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, explosives with ranged mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <Penguin_Grenadier_EMP>1</Penguin_Grenadier_EMP>
+          <Penguin_Grenadier_Destructive>10</Penguin_Grenadier_Destructive>
+          <Penguin_Mercenary_Gunner>1</Penguin_Mercenary_Gunner>
+          <Penguin_Mercenary_Heavy>10</Penguin_Mercenary_Heavy>
+          <Penguin_Mercenary_Elite>1</Penguin_Mercenary_Elite>
+          <Penguin_PirateBoss>1</Penguin_PirateBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, snipers only -->
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+        <options>
+          <Penguin_Mercenary_Sniper>10</Penguin_Mercenary_Sniper>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, drifters only (very rare) -->
+        <kindDef>Combat</kindDef>
+        <commonality>2.5</commonality>
+        <maxTotalPoints>1000</maxTotalPoints>
+        <options>
+          <Penguin_Drifter>10</Penguin_Drifter>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense, mainly ranged with melee mix-ins -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Penguin_Thrasher>3</Penguin_Thrasher>
+          <Penguin_Pirate>10</Penguin_Pirate>
+          <Penguin_Grenadier_Destructive>2</Penguin_Grenadier_Destructive>
+          <Penguin_Mercenary_Slasher>3</Penguin_Mercenary_Slasher>
+          <Penguin_Mercenary_Sniper>10</Penguin_Mercenary_Sniper>
+          <Penguin_Mercenary_Gunner>10</Penguin_Mercenary_Gunner>
+          <Penguin_Mercenary_Elite>10</Penguin_Mercenary_Elite>
+          <Penguin_PirateBoss>10</Penguin_PirateBoss>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <factionIconPath>World/WorldObjects/Expanding/PirateOutpost</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+</Defs>

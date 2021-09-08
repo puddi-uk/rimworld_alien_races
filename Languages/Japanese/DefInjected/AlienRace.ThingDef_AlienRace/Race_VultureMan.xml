@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Alien_Vulture.label>Vulture Man</Alien_Vulture.label>
+  <Alien_Vulture.description>文明的な種族ですが、やや好戦的です。年老いると首元の羽毛が減少する特徴があります。頭部に羽毛がなくても気にしませんが、首元の羽毛について指摘すると激怒します。</Alien_Vulture.description>
+  <Alien_Vulture.tools.0.label>左手</Alien_Vulture.tools.0.label>
+  <Alien_Vulture.tools.1.label>右手</Alien_Vulture.tools.1.label>
+  <Alien_Vulture.tools.2.label>クチバシ</Alien_Vulture.tools.2.label>
+  <Alien_Vulture.tools.3.label>頭</Alien_Vulture.tools.3.label>
+</LanguageData>

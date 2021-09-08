@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Poverty tier - penitent -->
+  <Cassowary_Tribal_Penitent.label>penitent</Cassowary_Tribal_Penitent.label>
+  <Cassowary_Tribal_Penitent.labelPlural>penitents</Cassowary_Tribal_Penitent.labelPlural>
+  <Cassowary_Tribal_Penitent.labelMale>male penitent</Cassowary_Tribal_Penitent.labelMale>
+  <Cassowary_Tribal_Penitent.labelMalePlural>male penitents</Cassowary_Tribal_Penitent.labelMalePlural>
+  <Cassowary_Tribal_Penitent.labelFemale>female penitent</Cassowary_Tribal_Penitent.labelFemale>
+  <Cassowary_Tribal_Penitent.labelFemalePlural>female penitents</Cassowary_Tribal_Penitent.labelFemalePlural>
+  <!-- Low tier - archer -->
+  <Cassowary_Tribal_Archer.label>archer</Cassowary_Tribal_Archer.label>
+  <Cassowary_Tribal_Archer.labelPlural>archers</Cassowary_Tribal_Archer.labelPlural>
+  <Cassowary_Tribal_Archer.labelMale>male archer</Cassowary_Tribal_Archer.labelMale>
+  <Cassowary_Tribal_Archer.labelMalePlural>male archers</Cassowary_Tribal_Archer.labelMalePlural>
+  <Cassowary_Tribal_Archer.labelFemale>female archer</Cassowary_Tribal_Archer.labelFemale>
+  <Cassowary_Tribal_Archer.labelFemalePlural>female archers</Cassowary_Tribal_Archer.labelFemalePlural>
+  <!-- Mid tier - warrior, hunter, trader -->
+  <Cassowary_Tribal_Warrior.label>warrior</Cassowary_Tribal_Warrior.label>
+  <Cassowary_Tribal_Warrior.labelPlural>warriors</Cassowary_Tribal_Warrior.labelPlural>
+  <Cassowary_Tribal_Warrior.labelMale>male warrior</Cassowary_Tribal_Warrior.labelMale>
+  <Cassowary_Tribal_Warrior.labelMalePlural>male warriors</Cassowary_Tribal_Warrior.labelMalePlural>
+  <Cassowary_Tribal_Warrior.labelFemale>female warrior</Cassowary_Tribal_Warrior.labelFemale>
+  <Cassowary_Tribal_Warrior.labelFemalePlural>female warriors</Cassowary_Tribal_Warrior.labelFemalePlural>
+  <Cassowary_Tribal_Hunter.label>hunter</Cassowary_Tribal_Hunter.label>
+  <Cassowary_Tribal_Hunter.labelPlural>hunters</Cassowary_Tribal_Hunter.labelPlural>
+  <Cassowary_Tribal_Hunter.labelMale>male hunter</Cassowary_Tribal_Hunter.labelMale>
+  <Cassowary_Tribal_Hunter.labelMalePlural>male hunters</Cassowary_Tribal_Hunter.labelMalePlural>
+  <Cassowary_Tribal_Hunter.labelFemale>female hunter</Cassowary_Tribal_Hunter.labelFemale>
+  <Cassowary_Tribal_Hunter.labelFemalePlural>female hunters</Cassowary_Tribal_Hunter.labelFemalePlural>
+  <Cassowary_Tribal_Trader.label>trader</Cassowary_Tribal_Trader.label>
+  <Cassowary_Tribal_Trader.labelPlural>traders</Cassowary_Tribal_Trader.labelPlural>
+  <Cassowary_Tribal_Trader.labelMale>male trader</Cassowary_Tribal_Trader.labelMale>
+  <Cassowary_Tribal_Trader.labelMalePlural>male traders</Cassowary_Tribal_Trader.labelMalePlural>
+  <Cassowary_Tribal_Trader.labelFemale>female trader</Cassowary_Tribal_Trader.labelFemale>
+  <Cassowary_Tribal_Trader.labelFemalePlural>female traders</Cassowary_Tribal_Trader.labelFemalePlural>
+  <!-- High tier - berserker, heavy archer, chief melee, chief ranged -->
+  <Cassowary_Tribal_Berserker.label>berserker</Cassowary_Tribal_Berserker.label>
+  <Cassowary_Tribal_Berserker.labelPlural>berserkers</Cassowary_Tribal_Berserker.labelPlural>
+  <Cassowary_Tribal_Berserker.labelMale>male berserker</Cassowary_Tribal_Berserker.labelMale>
+  <Cassowary_Tribal_Berserker.labelMalePlural>male berserkers</Cassowary_Tribal_Berserker.labelMalePlural>
+  <Cassowary_Tribal_Berserker.labelFemale>female berserker</Cassowary_Tribal_Berserker.labelFemale>
+  <Cassowary_Tribal_Berserker.labelFemalePlural>female berserkers</Cassowary_Tribal_Berserker.labelFemalePlural>
+  <Cassowary_Tribal_HeavyArcher.label>heavy archer</Cassowary_Tribal_HeavyArcher.label>
+  <Cassowary_Tribal_HeavyArcher.labelPlural>heavy archers</Cassowary_Tribal_HeavyArcher.labelPlural>
+  <Cassowary_Tribal_HeavyArcher.labelMale>male heavy archer</Cassowary_Tribal_HeavyArcher.labelMale>
+  <Cassowary_Tribal_HeavyArcher.labelMalePlural>male heavy archers</Cassowary_Tribal_HeavyArcher.labelMalePlural>
+  <Cassowary_Tribal_HeavyArcher.labelFemale>female heavy archer</Cassowary_Tribal_HeavyArcher.labelFemale>
+  <Cassowary_Tribal_HeavyArcher.labelFemalePlural>female heavy archers</Cassowary_Tribal_HeavyArcher.labelFemalePlural>
+  <!--[Duplicated] <Cassowary_Tribal_ChiefMelee.label>Cassowary_Tribal_ChiefMelee</Cassowary_Tribal_ChiefMelee.label>-->
+  <!--[Duplicated] <Cassowary_Tribal_ChiefMelee.labelPlural>Cassowary_Tribal_ChiefMelees</Cassowary_Tribal_ChiefMelee.labelPlural>-->
+  <!--[Duplicated] <Cassowary_Tribal_ChiefMelee.labelMale>male Cassowary_Tribal_ChiefMelee</Cassowary_Tribal_ChiefMelee.labelMale>-->
+  <!--[Duplicated] <Cassowary_Tribal_ChiefMelee.labelMalePlural>male Cassowary_Tribal_ChiefMelees</Cassowary_Tribal_ChiefMelee.labelMalePlural>-->
+  <!--[Duplicated] <Cassowary_Tribal_ChiefMelee.labelFemale>female Cassowary_Tribal_ChiefMelee</Cassowary_Tribal_ChiefMelee.labelFemale>-->
+  <!--[Duplicated] <Cassowary_Tribal_ChiefMelee.labelFemalePlural>female Cassowary_Tribal_ChiefMelees</Cassowary_Tribal_ChiefMelee.labelFemalePlural>-->
+  <Cassowary_Tribal_ChiefMelee.label>berserker chief</Cassowary_Tribal_ChiefMelee.label>
+  <Cassowary_Tribal_ChiefMelee.labelPlural>berserker chiefs</Cassowary_Tribal_ChiefMelee.labelPlural>
+  <Cassowary_Tribal_ChiefMelee.labelMale>male berserker chief</Cassowary_Tribal_ChiefMelee.labelMale>
+  <Cassowary_Tribal_ChiefMelee.labelMalePlural>male berserker chiefs</Cassowary_Tribal_ChiefMelee.labelMalePlural>
+  <Cassowary_Tribal_ChiefMelee.labelFemale>female berserker chief</Cassowary_Tribal_ChiefMelee.labelFemale>
+  <Cassowary_Tribal_ChiefMelee.labelFemalePlural>female berserker chiefs</Cassowary_Tribal_ChiefMelee.labelFemalePlural>
+  <Cassowary_Tribal_ChiefRanged.label>archer chief</Cassowary_Tribal_ChiefRanged.label>
+  <Cassowary_Tribal_ChiefRanged.labelPlural>archer chiefs</Cassowary_Tribal_ChiefRanged.labelPlural>
+  <Cassowary_Tribal_ChiefRanged.labelMale>male archer chief</Cassowary_Tribal_ChiefRanged.labelMale>
+  <Cassowary_Tribal_ChiefRanged.labelMalePlural>male archer chiefs</Cassowary_Tribal_ChiefRanged.labelMalePlural>
+  <Cassowary_Tribal_ChiefRanged.labelFemale>female archer chief</Cassowary_Tribal_ChiefRanged.labelFemale>
+  <Cassowary_Tribal_ChiefRanged.labelFemalePlural>female archer chiefs</Cassowary_Tribal_ChiefRanged.labelFemalePlural>
+</LanguageData>

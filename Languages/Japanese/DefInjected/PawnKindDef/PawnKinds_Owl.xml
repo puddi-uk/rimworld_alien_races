@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Owl_Villager.label>villager</Owl_Villager.label>
+  <Owl_Villager.labelPlural>villagers</Owl_Villager.labelPlural>
+  <Owl_Villager.labelMale>male villager</Owl_Villager.labelMale>
+  <Owl_Villager.labelMalePlural>male villagers</Owl_Villager.labelMalePlural>
+  <Owl_Villager.labelFemale>female villager</Owl_Villager.labelFemale>
+  <Owl_Villager.labelFemalePlural>female villagers</Owl_Villager.labelFemalePlural>
+  <Owl_Town_Guard.label>town guard</Owl_Town_Guard.label>
+  <Owl_Town_Guard.labelPlural>town guards</Owl_Town_Guard.labelPlural>
+  <Owl_Town_Guard.labelMale>male town guard</Owl_Town_Guard.labelMale>
+  <Owl_Town_Guard.labelMalePlural>male town guards</Owl_Town_Guard.labelMalePlural>
+  <Owl_Town_Guard.labelFemale>female town guard</Owl_Town_Guard.labelFemale>
+  <Owl_Town_Guard.labelFemalePlural>female town guards</Owl_Town_Guard.labelFemalePlural>
+  <Owl_Town_Trader.label>town trader</Owl_Town_Trader.label>
+  <Owl_Town_Trader.labelPlural>town traders</Owl_Town_Trader.labelPlural>
+  <Owl_Town_Trader.labelMale>male town trader</Owl_Town_Trader.labelMale>
+  <Owl_Town_Trader.labelMalePlural>male town traders</Owl_Town_Trader.labelMalePlural>
+  <Owl_Town_Trader.labelFemale>female town trader</Owl_Town_Trader.labelFemale>
+  <Owl_Town_Trader.labelFemalePlural>female town traders</Owl_Town_Trader.labelFemalePlural>
+  <Owl_Town_Councilman.label>town councilman</Owl_Town_Councilman.label>
+  <Owl_Town_Councilman.labelPlural>town councilmen</Owl_Town_Councilman.labelPlural>
+  <Owl_Town_Councilman.labelMale>male town councilman</Owl_Town_Councilman.labelMale>
+  <Owl_Town_Councilman.labelMalePlural>male town councilmen</Owl_Town_Councilman.labelMalePlural>
+  <Owl_Town_Councilman.labelFemale>female town councilman</Owl_Town_Councilman.labelFemale>
+  <Owl_Town_Councilman.labelFemalePlural>female town councilmen</Owl_Town_Councilman.labelFemalePlural>
+  <!-- Low merc tier - grenadiers -->
+  <Owl_Grenadier_Destructive.label>grenadier</Owl_Grenadier_Destructive.label>
+  <Owl_Grenadier_Destructive.labelPlural>grenadiers</Owl_Grenadier_Destructive.labelPlural>
+  <Owl_Grenadier_Destructive.labelMale>male grenadier</Owl_Grenadier_Destructive.labelMale>
+  <Owl_Grenadier_Destructive.labelMalePlural>male grenadiers</Owl_Grenadier_Destructive.labelMalePlural>
+  <Owl_Grenadier_Destructive.labelFemale>female grenadier</Owl_Grenadier_Destructive.labelFemale>
+  <Owl_Grenadier_Destructive.labelFemalePlural>female grenadiers</Owl_Grenadier_Destructive.labelFemalePlural>
+  <Owl_Grenadier_EMP.label>EMP grenadier</Owl_Grenadier_EMP.label>
+  <Owl_Grenadier_EMP.labelPlural>EMP grenadiers</Owl_Grenadier_EMP.labelPlural>
+  <Owl_Grenadier_EMP.labelMale>male EMP grenadier</Owl_Grenadier_EMP.labelMale>
+  <Owl_Grenadier_EMP.labelMalePlural>male EMP grenadiers</Owl_Grenadier_EMP.labelMalePlural>
+  <Owl_Grenadier_EMP.labelFemale>female EMP grenadier</Owl_Grenadier_EMP.labelFemale>
+  <Owl_Grenadier_EMP.labelFemalePlural>female EMP grenadiers</Owl_Grenadier_EMP.labelFemalePlural>
+  <!-- Mid merc tier - gunner, slasher, sniper, heavy -->
+  <Owl_Mercenary_Gunner.label>mercenary gunner</Owl_Mercenary_Gunner.label>
+  <Owl_Mercenary_Gunner.labelPlural>mercenary gunners</Owl_Mercenary_Gunner.labelPlural>
+  <Owl_Mercenary_Gunner.labelMale>male mercenary gunner</Owl_Mercenary_Gunner.labelMale>
+  <Owl_Mercenary_Gunner.labelMalePlural>male mercenary gunners</Owl_Mercenary_Gunner.labelMalePlural>
+  <Owl_Mercenary_Gunner.labelFemale>female mercenary gunner</Owl_Mercenary_Gunner.labelFemale>
+  <Owl_Mercenary_Gunner.labelFemalePlural>female mercenary gunners</Owl_Mercenary_Gunner.labelFemalePlural>
+  <Owl_Mercenary_Sniper.label>mercenary sniper</Owl_Mercenary_Sniper.label>
+  <Owl_Mercenary_Sniper.labelPlural>mercenary snipers</Owl_Mercenary_Sniper.labelPlural>
+  <Owl_Mercenary_Sniper.labelMale>male mercenary sniper</Owl_Mercenary_Sniper.labelMale>
+  <Owl_Mercenary_Sniper.labelMalePlural>male mercenary snipers</Owl_Mercenary_Sniper.labelMalePlural>
+  <Owl_Mercenary_Sniper.labelFemale>female mercenary sniper</Owl_Mercenary_Sniper.labelFemale>
+  <Owl_Mercenary_Sniper.labelFemalePlural>female mercenary snipers</Owl_Mercenary_Sniper.labelFemalePlural>
+  <Owl_Mercenary_Slasher.label>mercenary slasher</Owl_Mercenary_Slasher.label>
+  <Owl_Mercenary_Slasher.labelPlural>mercenary slashers</Owl_Mercenary_Slasher.labelPlural>
+  <Owl_Mercenary_Slasher.labelMale>male mercenary slasher</Owl_Mercenary_Slasher.labelMale>
+  <Owl_Mercenary_Slasher.labelMalePlural>male mercenary slashers</Owl_Mercenary_Slasher.labelMalePlural>
+  <Owl_Mercenary_Slasher.labelFemale>female mercenary slasher</Owl_Mercenary_Slasher.labelFemale>
+  <Owl_Mercenary_Slasher.labelFemalePlural>female mercenary slashers</Owl_Mercenary_Slasher.labelFemalePlural>
+  <Owl_Mercenary_Heavy.label>heavy mercenary</Owl_Mercenary_Heavy.label>
+  <Owl_Mercenary_Heavy.labelPlural>heavy mercenaries</Owl_Mercenary_Heavy.labelPlural>
+  <Owl_Mercenary_Heavy.labelMale>male heavy mercenary</Owl_Mercenary_Heavy.labelMale>
+  <Owl_Mercenary_Heavy.labelMalePlural>male heavy mercenaries</Owl_Mercenary_Heavy.labelMalePlural>
+  <Owl_Mercenary_Heavy.labelFemale>female heavy mercenary</Owl_Mercenary_Heavy.labelFemale>
+  <Owl_Mercenary_Heavy.labelFemalePlural>female heavy mercenaries</Owl_Mercenary_Heavy.labelFemalePlural>
+  <!-- Elite tier - merc elite, pirate boss -->
+  <Owl_PirateBoss.label>boss</Owl_PirateBoss.label>
+  <Owl_PirateBoss.labelPlural>bosses</Owl_PirateBoss.labelPlural>
+  <Owl_PirateBoss.labelMale>male boss</Owl_PirateBoss.labelMale>
+  <Owl_PirateBoss.labelMalePlural>male bosses</Owl_PirateBoss.labelMalePlural>
+  <Owl_PirateBoss.labelFemale>female boss</Owl_PirateBoss.labelFemale>
+  <Owl_PirateBoss.labelFemalePlural>female bosses</Owl_PirateBoss.labelFemalePlural>
+  <Owl_Mercenary_Elite.label>elite mercenary</Owl_Mercenary_Elite.label>
+  <Owl_Mercenary_Elite.labelPlural>elite mercenaries</Owl_Mercenary_Elite.labelPlural>
+  <Owl_Mercenary_Elite.labelMale>male elite mercenary</Owl_Mercenary_Elite.labelMale>
+  <Owl_Mercenary_Elite.labelMalePlural>male elite mercenaries</Owl_Mercenary_Elite.labelMalePlural>
+  <Owl_Mercenary_Elite.labelFemale>female elite mercenary</Owl_Mercenary_Elite.labelFemale>
+  <Owl_Mercenary_Elite.labelFemalePlural>female elite mercenaries</Owl_Mercenary_Elite.labelFemalePlural>
+</LanguageData>

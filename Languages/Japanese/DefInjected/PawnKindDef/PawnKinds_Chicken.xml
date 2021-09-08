@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Poverty tier - penitent -->
+  <Chicken_Tribal_Penitent.label>penitent</Chicken_Tribal_Penitent.label>
+  <Chicken_Tribal_Penitent.labelPlural>penitents</Chicken_Tribal_Penitent.labelPlural>
+  <Chicken_Tribal_Penitent.labelMale>male penitent</Chicken_Tribal_Penitent.labelMale>
+  <Chicken_Tribal_Penitent.labelMalePlural>male penitents</Chicken_Tribal_Penitent.labelMalePlural>
+  <Chicken_Tribal_Penitent.labelFemale>female penitent</Chicken_Tribal_Penitent.labelFemale>
+  <Chicken_Tribal_Penitent.labelFemalePlural>female penitents</Chicken_Tribal_Penitent.labelFemalePlural>
+  <!-- Low tier - archer -->
+  <Chicken_Tribal_Archer.label>archer</Chicken_Tribal_Archer.label>
+  <Chicken_Tribal_Archer.labelPlural>archers</Chicken_Tribal_Archer.labelPlural>
+  <Chicken_Tribal_Archer.labelMale>male archer</Chicken_Tribal_Archer.labelMale>
+  <Chicken_Tribal_Archer.labelMalePlural>male archers</Chicken_Tribal_Archer.labelMalePlural>
+  <Chicken_Tribal_Archer.labelFemale>female archer</Chicken_Tribal_Archer.labelFemale>
+  <Chicken_Tribal_Archer.labelFemalePlural>female archers</Chicken_Tribal_Archer.labelFemalePlural>
+  <!-- Mid tier - warrior, hunter, trader -->
+  <Chicken_Tribal_Warrior.label>warrior</Chicken_Tribal_Warrior.label>
+  <Chicken_Tribal_Warrior.labelPlural>warriors</Chicken_Tribal_Warrior.labelPlural>
+  <Chicken_Tribal_Warrior.labelMale>male warrior</Chicken_Tribal_Warrior.labelMale>
+  <Chicken_Tribal_Warrior.labelMalePlural>male warriors</Chicken_Tribal_Warrior.labelMalePlural>
+  <Chicken_Tribal_Warrior.labelFemale>female warrior</Chicken_Tribal_Warrior.labelFemale>
+  <Chicken_Tribal_Warrior.labelFemalePlural>female warriors</Chicken_Tribal_Warrior.labelFemalePlural>
+  <Chicken_Tribal_Hunter.label>hunter</Chicken_Tribal_Hunter.label>
+  <Chicken_Tribal_Hunter.labelPlural>hunters</Chicken_Tribal_Hunter.labelPlural>
+  <Chicken_Tribal_Hunter.labelMale>male hunter</Chicken_Tribal_Hunter.labelMale>
+  <Chicken_Tribal_Hunter.labelMalePlural>male hunters</Chicken_Tribal_Hunter.labelMalePlural>
+  <Chicken_Tribal_Hunter.labelFemale>female hunter</Chicken_Tribal_Hunter.labelFemale>
+  <Chicken_Tribal_Hunter.labelFemalePlural>female hunters</Chicken_Tribal_Hunter.labelFemalePlural>
+  <Chicken_Tribal_Trader.label>trader</Chicken_Tribal_Trader.label>
+  <Chicken_Tribal_Trader.labelPlural>traders</Chicken_Tribal_Trader.labelPlural>
+  <Chicken_Tribal_Trader.labelMale>male trader</Chicken_Tribal_Trader.labelMale>
+  <Chicken_Tribal_Trader.labelMalePlural>male traders</Chicken_Tribal_Trader.labelMalePlural>
+  <Chicken_Tribal_Trader.labelFemale>female trader</Chicken_Tribal_Trader.labelFemale>
+  <Chicken_Tribal_Trader.labelFemalePlural>female traders</Chicken_Tribal_Trader.labelFemalePlural>
+  <!-- High tier - berserker, heavy archer, chief melee, chief ranged -->
+  <Chicken_Tribal_Berserker.label>berserker</Chicken_Tribal_Berserker.label>
+  <Chicken_Tribal_Berserker.labelPlural>berserkers</Chicken_Tribal_Berserker.labelPlural>
+  <Chicken_Tribal_Berserker.labelMale>male berserker</Chicken_Tribal_Berserker.labelMale>
+  <Chicken_Tribal_Berserker.labelMalePlural>male berserkers</Chicken_Tribal_Berserker.labelMalePlural>
+  <Chicken_Tribal_Berserker.labelFemale>female berserker</Chicken_Tribal_Berserker.labelFemale>
+  <Chicken_Tribal_Berserker.labelFemalePlural>female berserkers</Chicken_Tribal_Berserker.labelFemalePlural>
+  <Chicken_Tribal_HeavyArcher.label>heavy archer</Chicken_Tribal_HeavyArcher.label>
+  <Chicken_Tribal_HeavyArcher.labelPlural>heavy archers</Chicken_Tribal_HeavyArcher.labelPlural>
+  <Chicken_Tribal_HeavyArcher.labelMale>male heavy archer</Chicken_Tribal_HeavyArcher.labelMale>
+  <Chicken_Tribal_HeavyArcher.labelMalePlural>male heavy archers</Chicken_Tribal_HeavyArcher.labelMalePlural>
+  <Chicken_Tribal_HeavyArcher.labelFemale>female heavy archer</Chicken_Tribal_HeavyArcher.labelFemale>
+  <Chicken_Tribal_HeavyArcher.labelFemalePlural>female heavy archers</Chicken_Tribal_HeavyArcher.labelFemalePlural>
+  <!--[Duplicated] <Chicken_Tribal_ChiefMelee.label>Chicken_Tribal_ChiefMelee</Chicken_Tribal_ChiefMelee.label>-->
+  <!--[Duplicated] <Chicken_Tribal_ChiefMelee.labelPlural>Chicken_Tribal_ChiefMelees</Chicken_Tribal_ChiefMelee.labelPlural>-->
+  <!--[Duplicated] <Chicken_Tribal_ChiefMelee.labelMale>male Chicken_Tribal_ChiefMelee</Chicken_Tribal_ChiefMelee.labelMale>-->
+  <!--[Duplicated] <Chicken_Tribal_ChiefMelee.labelMalePlural>male Chicken_Tribal_ChiefMelees</Chicken_Tribal_ChiefMelee.labelMalePlural>-->
+  <!--[Duplicated] <Chicken_Tribal_ChiefMelee.labelFemale>female Chicken_Tribal_ChiefMelee</Chicken_Tribal_ChiefMelee.labelFemale>-->
+  <!--[Duplicated] <Chicken_Tribal_ChiefMelee.labelFemalePlural>female Chicken_Tribal_ChiefMelees</Chicken_Tribal_ChiefMelee.labelFemalePlural>-->
+  <Chicken_Tribal_ChiefMelee.label>berserker chief</Chicken_Tribal_ChiefMelee.label>
+  <Chicken_Tribal_ChiefMelee.labelPlural>berserker chiefs</Chicken_Tribal_ChiefMelee.labelPlural>
+  <Chicken_Tribal_ChiefMelee.labelMale>male berserker chief</Chicken_Tribal_ChiefMelee.labelMale>
+  <Chicken_Tribal_ChiefMelee.labelMalePlural>male berserker chiefs</Chicken_Tribal_ChiefMelee.labelMalePlural>
+  <Chicken_Tribal_ChiefMelee.labelFemale>female berserker chief</Chicken_Tribal_ChiefMelee.labelFemale>
+  <Chicken_Tribal_ChiefMelee.labelFemalePlural>female berserker chiefs</Chicken_Tribal_ChiefMelee.labelFemalePlural>
+  <Chicken_Tribal_ChiefRanged.label>archer chief</Chicken_Tribal_ChiefRanged.label>
+  <Chicken_Tribal_ChiefRanged.labelPlural>archer chiefs</Chicken_Tribal_ChiefRanged.labelPlural>
+  <Chicken_Tribal_ChiefRanged.labelMale>male archer chief</Chicken_Tribal_ChiefRanged.labelMale>
+  <Chicken_Tribal_ChiefRanged.labelMalePlural>male archer chiefs</Chicken_Tribal_ChiefRanged.labelMalePlural>
+  <Chicken_Tribal_ChiefRanged.labelFemale>female archer chief</Chicken_Tribal_ChiefRanged.labelFemale>
+  <Chicken_Tribal_ChiefRanged.labelFemalePlural>female archer chiefs</Chicken_Tribal_ChiefRanged.labelFemalePlural>
+</LanguageData>

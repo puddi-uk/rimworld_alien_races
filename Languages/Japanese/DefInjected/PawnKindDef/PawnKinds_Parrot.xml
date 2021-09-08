@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Povery tier - drifter -->
+  <Parrot_Drifter.label>drifter</Parrot_Drifter.label>
+  <Parrot_Drifter.labelPlural>drifters</Parrot_Drifter.labelPlural>
+  <Parrot_Drifter.labelMale>male drifter</Parrot_Drifter.labelMale>
+  <Parrot_Drifter.labelMalePlural>male drifters</Parrot_Drifter.labelMalePlural>
+  <Parrot_Drifter.labelFemale>female drifter</Parrot_Drifter.labelFemale>
+  <Parrot_Drifter.labelFemalePlural>female drifters</Parrot_Drifter.labelFemalePlural>
+  <!-- Low tier - scavenger, thrasher -->
+  <Parrot_Scavenger.label>scavenger gunner</Parrot_Scavenger.label>
+  <Parrot_Scavenger.labelPlural>scavenger gunners</Parrot_Scavenger.labelPlural>
+  <Parrot_Scavenger.labelMale>male scavenger gunner</Parrot_Scavenger.labelMale>
+  <Parrot_Scavenger.labelMalePlural>male scavenger gunners</Parrot_Scavenger.labelMalePlural>
+  <Parrot_Scavenger.labelFemale>female scavenger gunner</Parrot_Scavenger.labelFemale>
+  <Parrot_Scavenger.labelFemalePlural>female scavenger gunners</Parrot_Scavenger.labelFemalePlural>
+  <Parrot_Thrasher.label>scavenger thrasher</Parrot_Thrasher.label>
+  <Parrot_Thrasher.labelPlural>scavenger thrashers</Parrot_Thrasher.labelPlural>
+  <Parrot_Thrasher.labelMale>male scavenger thrasher</Parrot_Thrasher.labelMale>
+  <Parrot_Thrasher.labelMalePlural>male scavenger thrashers</Parrot_Thrasher.labelMalePlural>
+  <Parrot_Thrasher.labelFemale>female scavenger thrasher</Parrot_Thrasher.labelFemale>
+  <Parrot_Thrasher.labelFemalePlural>female scavenger thrashers</Parrot_Thrasher.labelFemalePlural>
+  <!-- Mid tier - pirate -->
+  <Parrot_Pirate.label>pirate gunner</Parrot_Pirate.label>
+  <Parrot_Pirate.labelPlural>pirate gunners</Parrot_Pirate.labelPlural>
+  <Parrot_Pirate.labelMale>male pirate gunner</Parrot_Pirate.labelMale>
+  <Parrot_Pirate.labelMalePlural>male pirate gunners</Parrot_Pirate.labelMalePlural>
+  <Parrot_Pirate.labelFemale>female pirate gunner</Parrot_Pirate.labelFemale>
+  <Parrot_Pirate.labelFemalePlural>female pirate gunners</Parrot_Pirate.labelFemalePlural>
+  <!-- Low merc tier - grenadiers -->
+  <Parrot_Grenadier_Destructive.label>grenadier</Parrot_Grenadier_Destructive.label>
+  <Parrot_Grenadier_Destructive.labelPlural>grenadiers</Parrot_Grenadier_Destructive.labelPlural>
+  <Parrot_Grenadier_Destructive.labelMale>male grenadier</Parrot_Grenadier_Destructive.labelMale>
+  <Parrot_Grenadier_Destructive.labelMalePlural>male grenadiers</Parrot_Grenadier_Destructive.labelMalePlural>
+  <Parrot_Grenadier_Destructive.labelFemale>female grenadier</Parrot_Grenadier_Destructive.labelFemale>
+  <Parrot_Grenadier_Destructive.labelFemalePlural>female grenadiers</Parrot_Grenadier_Destructive.labelFemalePlural>
+  <Parrot_Grenadier_EMP.label>EMP grenadier</Parrot_Grenadier_EMP.label>
+  <Parrot_Grenadier_EMP.labelPlural>EMP grenadiers</Parrot_Grenadier_EMP.labelPlural>
+  <Parrot_Grenadier_EMP.labelMale>male EMP grenadier</Parrot_Grenadier_EMP.labelMale>
+  <Parrot_Grenadier_EMP.labelMalePlural>male EMP grenadiers</Parrot_Grenadier_EMP.labelMalePlural>
+  <Parrot_Grenadier_EMP.labelFemale>female EMP grenadier</Parrot_Grenadier_EMP.labelFemale>
+  <Parrot_Grenadier_EMP.labelFemalePlural>female EMP grenadiers</Parrot_Grenadier_EMP.labelFemalePlural>
+  <!-- Mid merc tier - gunner, slasher, sniper, heavy -->
+  <Parrot_Mercenary_Gunner.label>mercenary gunner</Parrot_Mercenary_Gunner.label>
+  <Parrot_Mercenary_Gunner.labelPlural>mercenary gunners</Parrot_Mercenary_Gunner.labelPlural>
+  <Parrot_Mercenary_Gunner.labelMale>male mercenary gunner</Parrot_Mercenary_Gunner.labelMale>
+  <Parrot_Mercenary_Gunner.labelMalePlural>male mercenary gunners</Parrot_Mercenary_Gunner.labelMalePlural>
+  <Parrot_Mercenary_Gunner.labelFemale>female mercenary gunner</Parrot_Mercenary_Gunner.labelFemale>
+  <Parrot_Mercenary_Gunner.labelFemalePlural>female mercenary gunners</Parrot_Mercenary_Gunner.labelFemalePlural>
+  <Parrot_Mercenary_Sniper.label>mercenary sniper</Parrot_Mercenary_Sniper.label>
+  <Parrot_Mercenary_Sniper.labelPlural>mercenary snipers</Parrot_Mercenary_Sniper.labelPlural>
+  <Parrot_Mercenary_Sniper.labelMale>male mercenary sniper</Parrot_Mercenary_Sniper.labelMale>
+  <Parrot_Mercenary_Sniper.labelMalePlural>male mercenary snipers</Parrot_Mercenary_Sniper.labelMalePlural>
+  <Parrot_Mercenary_Sniper.labelFemale>female mercenary sniper</Parrot_Mercenary_Sniper.labelFemale>
+  <Parrot_Mercenary_Sniper.labelFemalePlural>female mercenary snipers</Parrot_Mercenary_Sniper.labelFemalePlural>
+  <Parrot_Mercenary_Slasher.label>mercenary slasher</Parrot_Mercenary_Slasher.label>
+  <Parrot_Mercenary_Slasher.labelPlural>mercenary slashers</Parrot_Mercenary_Slasher.labelPlural>
+  <Parrot_Mercenary_Slasher.labelMale>male mercenary slasher</Parrot_Mercenary_Slasher.labelMale>
+  <Parrot_Mercenary_Slasher.labelMalePlural>male mercenary slashers</Parrot_Mercenary_Slasher.labelMalePlural>
+  <Parrot_Mercenary_Slasher.labelFemale>female mercenary slasher</Parrot_Mercenary_Slasher.labelFemale>
+  <Parrot_Mercenary_Slasher.labelFemalePlural>female mercenary slashers</Parrot_Mercenary_Slasher.labelFemalePlural>
+  <Parrot_Mercenary_Heavy.label>heavy mercenary</Parrot_Mercenary_Heavy.label>
+  <Parrot_Mercenary_Heavy.labelPlural>heavy mercenaries</Parrot_Mercenary_Heavy.labelPlural>
+  <Parrot_Mercenary_Heavy.labelMale>male heavy mercenary</Parrot_Mercenary_Heavy.labelMale>
+  <Parrot_Mercenary_Heavy.labelMalePlural>male heavy mercenaries</Parrot_Mercenary_Heavy.labelMalePlural>
+  <Parrot_Mercenary_Heavy.labelFemale>female heavy mercenary</Parrot_Mercenary_Heavy.labelFemale>
+  <Parrot_Mercenary_Heavy.labelFemalePlural>female heavy mercenaries</Parrot_Mercenary_Heavy.labelFemalePlural>
+  <!-- Elite tier - merc elite, pirate boss -->
+  <Parrot_PirateBoss.label>boss</Parrot_PirateBoss.label>
+  <Parrot_PirateBoss.labelPlural>bosses</Parrot_PirateBoss.labelPlural>
+  <Parrot_PirateBoss.labelMale>male boss</Parrot_PirateBoss.labelMale>
+  <Parrot_PirateBoss.labelMalePlural>male bosses</Parrot_PirateBoss.labelMalePlural>
+  <Parrot_PirateBoss.labelFemale>female boss</Parrot_PirateBoss.labelFemale>
+  <Parrot_PirateBoss.labelFemalePlural>female bosses</Parrot_PirateBoss.labelFemalePlural>
+  <Parrot_Mercenary_Elite.label>elite mercenary</Parrot_Mercenary_Elite.label>
+  <Parrot_Mercenary_Elite.labelPlural>elite mercenaries</Parrot_Mercenary_Elite.labelPlural>
+  <Parrot_Mercenary_Elite.labelMale>male elite mercenary</Parrot_Mercenary_Elite.labelMale>
+  <Parrot_Mercenary_Elite.labelMalePlural>male elite mercenaries</Parrot_Mercenary_Elite.labelMalePlural>
+  <Parrot_Mercenary_Elite.labelFemale>female elite mercenary</Parrot_Mercenary_Elite.labelFemale>
+  <Parrot_Mercenary_Elite.labelFemalePlural>female elite mercenaries</Parrot_Mercenary_Elite.labelFemalePlural>
+</LanguageData>

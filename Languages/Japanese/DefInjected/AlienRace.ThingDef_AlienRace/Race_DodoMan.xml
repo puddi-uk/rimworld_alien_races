@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Alien_Dodo.label>Dodo Man</Alien_Dodo.label>
+  <Alien_Dodo.description>かつて絶滅したあの鳥に似ている。関係あるのだろうか。</Alien_Dodo.description>
+  <Alien_Dodo.tools.0.label>左手</Alien_Dodo.tools.0.label>
+  <Alien_Dodo.tools.1.label>右手</Alien_Dodo.tools.1.label>
+  <Alien_Dodo.tools.2.label>クチバシ</Alien_Dodo.tools.2.label>
+  <Alien_Dodo.tools.3.label>頭</Alien_Dodo.tools.3.label>
+</LanguageData>

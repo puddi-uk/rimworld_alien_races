@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Povery tier - drifter -->
+  <Penguin_Drifter.label>drifter</Penguin_Drifter.label>
+  <Penguin_Drifter.labelPlural>drifters</Penguin_Drifter.labelPlural>
+  <Penguin_Drifter.labelMale>male drifter</Penguin_Drifter.labelMale>
+  <Penguin_Drifter.labelMalePlural>male drifters</Penguin_Drifter.labelMalePlural>
+  <Penguin_Drifter.labelFemale>female drifter</Penguin_Drifter.labelFemale>
+  <Penguin_Drifter.labelFemalePlural>female drifters</Penguin_Drifter.labelFemalePlural>
+  <!-- Low tier - scavenger, thrasher -->
+  <Penguin_Scavenger.label>scavenger gunner</Penguin_Scavenger.label>
+  <Penguin_Scavenger.labelPlural>scavenger gunners</Penguin_Scavenger.labelPlural>
+  <Penguin_Scavenger.labelMale>male scavenger gunner</Penguin_Scavenger.labelMale>
+  <Penguin_Scavenger.labelMalePlural>male scavenger gunners</Penguin_Scavenger.labelMalePlural>
+  <Penguin_Scavenger.labelFemale>female scavenger gunner</Penguin_Scavenger.labelFemale>
+  <Penguin_Scavenger.labelFemalePlural>female scavenger gunners</Penguin_Scavenger.labelFemalePlural>
+  <Penguin_Thrasher.label>scavenger thrasher</Penguin_Thrasher.label>
+  <Penguin_Thrasher.labelPlural>scavenger thrashers</Penguin_Thrasher.labelPlural>
+  <Penguin_Thrasher.labelMale>male scavenger thrasher</Penguin_Thrasher.labelMale>
+  <Penguin_Thrasher.labelMalePlural>male scavenger thrashers</Penguin_Thrasher.labelMalePlural>
+  <Penguin_Thrasher.labelFemale>female scavenger thrasher</Penguin_Thrasher.labelFemale>
+  <Penguin_Thrasher.labelFemalePlural>female scavenger thrashers</Penguin_Thrasher.labelFemalePlural>
+  <!-- Mid tier - pirate -->
+  <Penguin_Pirate.label>pirate gunner</Penguin_Pirate.label>
+  <Penguin_Pirate.labelPlural>pirate gunners</Penguin_Pirate.labelPlural>
+  <Penguin_Pirate.labelMale>male pirate gunner</Penguin_Pirate.labelMale>
+  <Penguin_Pirate.labelMalePlural>male pirate gunners</Penguin_Pirate.labelMalePlural>
+  <Penguin_Pirate.labelFemale>female pirate gunner</Penguin_Pirate.labelFemale>
+  <Penguin_Pirate.labelFemalePlural>female pirate gunners</Penguin_Pirate.labelFemalePlural>
+  <!-- Low merc tier - grenadiers -->
+  <Penguin_Grenadier_Destructive.label>grenadier</Penguin_Grenadier_Destructive.label>
+  <Penguin_Grenadier_Destructive.labelPlural>grenadiers</Penguin_Grenadier_Destructive.labelPlural>
+  <Penguin_Grenadier_Destructive.labelMale>male grenadier</Penguin_Grenadier_Destructive.labelMale>
+  <Penguin_Grenadier_Destructive.labelMalePlural>male grenadiers</Penguin_Grenadier_Destructive.labelMalePlural>
+  <Penguin_Grenadier_Destructive.labelFemale>female grenadier</Penguin_Grenadier_Destructive.labelFemale>
+  <Penguin_Grenadier_Destructive.labelFemalePlural>female grenadiers</Penguin_Grenadier_Destructive.labelFemalePlural>
+  <Penguin_Grenadier_EMP.label>EMP grenadier</Penguin_Grenadier_EMP.label>
+  <Penguin_Grenadier_EMP.labelPlural>EMP grenadiers</Penguin_Grenadier_EMP.labelPlural>
+  <Penguin_Grenadier_EMP.labelMale>male EMP grenadier</Penguin_Grenadier_EMP.labelMale>
+  <Penguin_Grenadier_EMP.labelMalePlural>male EMP grenadiers</Penguin_Grenadier_EMP.labelMalePlural>
+  <Penguin_Grenadier_EMP.labelFemale>female EMP grenadier</Penguin_Grenadier_EMP.labelFemale>
+  <Penguin_Grenadier_EMP.labelFemalePlural>female EMP grenadiers</Penguin_Grenadier_EMP.labelFemalePlural>
+  <!-- Mid merc tier - gunner, slasher, sniper, heavy -->
+  <Penguin_Mercenary_Gunner.label>mercenary gunner</Penguin_Mercenary_Gunner.label>
+  <Penguin_Mercenary_Gunner.labelPlural>mercenary gunners</Penguin_Mercenary_Gunner.labelPlural>
+  <Penguin_Mercenary_Gunner.labelMale>male mercenary gunner</Penguin_Mercenary_Gunner.labelMale>
+  <Penguin_Mercenary_Gunner.labelMalePlural>male mercenary gunners</Penguin_Mercenary_Gunner.labelMalePlural>
+  <Penguin_Mercenary_Gunner.labelFemale>female mercenary gunner</Penguin_Mercenary_Gunner.labelFemale>
+  <Penguin_Mercenary_Gunner.labelFemalePlural>female mercenary gunners</Penguin_Mercenary_Gunner.labelFemalePlural>
+  <Penguin_Mercenary_Sniper.label>mercenary sniper</Penguin_Mercenary_Sniper.label>
+  <Penguin_Mercenary_Sniper.labelPlural>mercenary snipers</Penguin_Mercenary_Sniper.labelPlural>
+  <Penguin_Mercenary_Sniper.labelMale>male mercenary sniper</Penguin_Mercenary_Sniper.labelMale>
+  <Penguin_Mercenary_Sniper.labelMalePlural>male mercenary snipers</Penguin_Mercenary_Sniper.labelMalePlural>
+  <Penguin_Mercenary_Sniper.labelFemale>female mercenary sniper</Penguin_Mercenary_Sniper.labelFemale>
+  <Penguin_Mercenary_Sniper.labelFemalePlural>female mercenary snipers</Penguin_Mercenary_Sniper.labelFemalePlural>
+  <Penguin_Mercenary_Slasher.label>mercenary slasher</Penguin_Mercenary_Slasher.label>
+  <Penguin_Mercenary_Slasher.labelPlural>mercenary slashers</Penguin_Mercenary_Slasher.labelPlural>
+  <Penguin_Mercenary_Slasher.labelMale>male mercenary slasher</Penguin_Mercenary_Slasher.labelMale>
+  <Penguin_Mercenary_Slasher.labelMalePlural>male mercenary slashers</Penguin_Mercenary_Slasher.labelMalePlural>
+  <Penguin_Mercenary_Slasher.labelFemale>female mercenary slasher</Penguin_Mercenary_Slasher.labelFemale>
+  <Penguin_Mercenary_Slasher.labelFemalePlural>female mercenary slashers</Penguin_Mercenary_Slasher.labelFemalePlural>
+  <Penguin_Mercenary_Heavy.label>heavy mercenary</Penguin_Mercenary_Heavy.label>
+  <Penguin_Mercenary_Heavy.labelPlural>heavy mercenaries</Penguin_Mercenary_Heavy.labelPlural>
+  <Penguin_Mercenary_Heavy.labelMale>male heavy mercenary</Penguin_Mercenary_Heavy.labelMale>
+  <Penguin_Mercenary_Heavy.labelMalePlural>male heavy mercenaries</Penguin_Mercenary_Heavy.labelMalePlural>
+  <Penguin_Mercenary_Heavy.labelFemale>female heavy mercenary</Penguin_Mercenary_Heavy.labelFemale>
+  <Penguin_Mercenary_Heavy.labelFemalePlural>female heavy mercenaries</Penguin_Mercenary_Heavy.labelFemalePlural>
+  <!-- Elite tier - merc elite, pirate boss -->
+  <Penguin_PirateBoss.label>boss</Penguin_PirateBoss.label>
+  <Penguin_PirateBoss.labelPlural>bosses</Penguin_PirateBoss.labelPlural>
+  <Penguin_PirateBoss.labelMale>male boss</Penguin_PirateBoss.labelMale>
+  <Penguin_PirateBoss.labelMalePlural>male bosses</Penguin_PirateBoss.labelMalePlural>
+  <Penguin_PirateBoss.labelFemale>female boss</Penguin_PirateBoss.labelFemale>
+  <Penguin_PirateBoss.labelFemalePlural>female bosses</Penguin_PirateBoss.labelFemalePlural>
+  <Penguin_Mercenary_Elite.label>elite mercenary</Penguin_Mercenary_Elite.label>
+  <Penguin_Mercenary_Elite.labelPlural>elite mercenaries</Penguin_Mercenary_Elite.labelPlural>
+  <Penguin_Mercenary_Elite.labelMale>male elite mercenary</Penguin_Mercenary_Elite.labelMale>
+  <Penguin_Mercenary_Elite.labelMalePlural>male elite mercenaries</Penguin_Mercenary_Elite.labelMalePlural>
+  <Penguin_Mercenary_Elite.labelFemale>female elite mercenary</Penguin_Mercenary_Elite.labelFemale>
+  <Penguin_Mercenary_Elite.labelFemalePlural>female elite mercenaries</Penguin_Mercenary_Elite.labelFemalePlural>
+</LanguageData>

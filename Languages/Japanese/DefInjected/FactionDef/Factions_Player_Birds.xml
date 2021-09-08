@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Owl_PlayerColony.label>Owl New Arrivals</Owl_PlayerColony.label>
+  <Owl_PlayerColony.description>A colony of recently-arrived off-worlders.</Owl_PlayerColony.description>
+  <Owl_PlayerColony.pawnsPlural>Owl_colonists</Owl_PlayerColony.pawnsPlural>
+  <Vulture_PlayerColony.label>Vulture New Arrivals</Vulture_PlayerColony.label>
+  <Vulture_PlayerColony.description>A colony of recently-arrived off-worlders.</Vulture_PlayerColony.description>
+  <Vulture_PlayerColony.pawnsPlural>Vulture_colonists</Vulture_PlayerColony.pawnsPlural>
+  <Chicken_PlayerTribe.label>Chicken New Tribe</Chicken_PlayerTribe.label>
+  <Chicken_PlayerTribe.description>A small tribe.</Chicken_PlayerTribe.description>
+  <Chicken_PlayerTribe.pawnsPlural>Chicken_tribespeople</Chicken_PlayerTribe.pawnsPlural>
+  <Cassowary_PlayerTribe.label>Cassowary New Tribe</Cassowary_PlayerTribe.label>
+  <Cassowary_PlayerTribe.description>A small tribe.</Cassowary_PlayerTribe.description>
+  <Cassowary_PlayerTribe.pawnsPlural>Cassowary_tribespeople</Cassowary_PlayerTribe.pawnsPlural>
+  <Parrot_PlayerColony.label>Parrot New Arrivals</Parrot_PlayerColony.label>
+  <Parrot_PlayerColony.description>A colony of recently-arrived off-worlders.</Parrot_PlayerColony.description>
+  <Parrot_PlayerColony.pawnsPlural>Parrot_Pirate</Parrot_PlayerColony.pawnsPlural>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Install natural parts -->
+  <InstallWoodenBeak.label>木製クチバシ 移植</InstallWoodenBeak.label>
+  <InstallWoodenBeak.description>木製クチバシ 移植します.</InstallWoodenBeak.description>
+  <InstallWoodenBeak.jobString>木製クチバシ 移植中</InstallWoodenBeak.jobString>
+  <InstallBionicBeak.label>強化クチバシ 移植</InstallBionicBeak.label>
+  <InstallBionicBeak.description>強化クチバシ 移植します.</InstallBionicBeak.description>
+  <InstallBionicBeak.jobString>強化クチバシ 移植中</InstallBionicBeak.jobString>
+</LanguageData>
