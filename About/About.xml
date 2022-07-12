@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Avian Races (Continued)</name>
   <packageId>Mlie.AvianRaces</packageId>
@@ -31,6 +31,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1514158118
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/AvianRaces][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
     [/tr]
 [/table]
 	
@@ -80,4 +84,3 @@ Update 1.01
 [/list]
 </description>
 </ModMetaData>
-
