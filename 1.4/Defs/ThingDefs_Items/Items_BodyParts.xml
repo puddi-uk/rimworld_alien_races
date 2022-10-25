@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- bionics (spacer tech) -->
+  <!--
+  <ThingDef Name="BodyPartBionicBase" ParentName="BodyPartProstheticBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <color>(155,165,148)</color>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+-->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicBeak</defName>
+    <label>bionic beak</label>
+    <description>An advanced artificial beak. Specialty sound wave device. You can produce every voices and sounds. It have input plugs, your beak becomes audio speaker.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <!--    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>-->
+  </ThingDef>
+</Defs>

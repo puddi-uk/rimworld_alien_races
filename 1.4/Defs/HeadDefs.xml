@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Cassowary_AverageNormal</defName>
+    <graphicPath>Things/Cassowary/Heads/Average_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Chicken_MaleAverageNormal</defName>
+    <graphicPath>Things/Chicken/Heads/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Chicken_FemaleAverageNormal</defName>
+    <graphicPath>Things/Chicken/Heads/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Dodo_AverageNormal</defName>
+    <graphicPath>Things/Dodo/Heads/Average_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Owl_AverageNormal</defName>
+    <graphicPath>Things/Owl/Heads/Average_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Parrot_AverageNormal</defName>
+    <graphicPath>Things/Parrot/Heads/Average_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Penguin_AverageNormal</defName>
+    <graphicPath>Things/Penguin/Heads/Average_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vulture_AverageNormal</defName>
+    <graphicPath>Things/Vulture/Heads/Average_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+</Defs>
