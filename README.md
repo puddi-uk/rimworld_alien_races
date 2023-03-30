@@ -56,6 +56,4 @@ Update 1.01
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2596555190]Last updated 2023-01-09
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2596555190]Last updated 2023-03-30
