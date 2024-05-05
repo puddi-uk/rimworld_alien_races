@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <Alien_Chicken.label>Chicken Man</Alien_Chicken.label>
-  <Alien_Chicken.description>出自不明の大きな鶏。遺伝子操作によって創り出された家畜種族だという噂がある。</Alien_Chicken.description>
-  <Alien_Chicken.tools.0.label>左手</Alien_Chicken.tools.0.label>
-  <Alien_Chicken.tools.1.label>右手</Alien_Chicken.tools.1.label>
-  <Alien_Chicken.tools.2.label>クチバシ</Alien_Chicken.tools.2.label>
-  <Alien_Chicken.tools.3.label>頭</Alien_Chicken.tools.3.label>
-</LanguageData>
