@@ -1,7 +1,8 @@
 MIT License
 
-Copyright for portions of project https://github.com/erdelf/AlienRaces are held by Mlie, 2020. 
-All other copyright for project https://github.com/puddi-uk/rimworld_avian_races are held by Puddi_UK, 2024.
+Copyright for portions of project [https://github.com/erdelf/AlienRaces](https://github.com/emipa606/AvianRaces) are held by Mlie, 2020. 
+
+All other copyright for project [https://github.com/puddi-uk/rimworld_avian_races](https://github.com/puddi-uk/rimworld_avian_races) are held by Puddi_UK, 2024.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
