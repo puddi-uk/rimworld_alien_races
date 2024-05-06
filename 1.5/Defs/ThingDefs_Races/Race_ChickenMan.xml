@@ -46,8 +46,7 @@
             <chance>30</chance>
           </li>
           <li>
-            <defName>NaturalMood</defName>
-            <degree>2</degree>
+            <defName Degree="2">NaturalMood</defName>
             <chance>20</chance>
           </li>
         </forcedRaceTraitEntries>

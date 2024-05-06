@@ -38,8 +38,7 @@
         <immuneToAge>false</immuneToAge>
         <forcedRaceTraitEntries>
           <li>
-            <defName>SpeedOffset</defName>
-            <degree>-1</degree>
+            <defName Degree="-1">SpeedOffset</defName>
             <chance>70</chance>
           </li>
           <li>
@@ -47,8 +46,7 @@
             <chance>30</chance>
           </li>
           <li>
-            <defName>Industriousness</defName>
-            <degree>2</degree>
+            <defName Degree="2">Industriousness</defName>
             <chance>10</chance>
           </li>
         </forcedRaceTraitEntries>

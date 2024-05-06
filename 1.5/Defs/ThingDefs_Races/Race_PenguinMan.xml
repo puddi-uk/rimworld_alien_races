@@ -38,18 +38,15 @@
         <immuneToAge>false</immuneToAge>
         <forcedRaceTraitEntries>
           <li>
-            <defName>Beauty</defName>
-            <degree>1</degree>
+            <defName Degree="1">Beauty</defName>
             <chance>50</chance>
           </li>
           <li>
-            <defName>PsychicSensitivity</defName>
-            <degree>-1</degree>
+            <defName Degree="-1">PsychicSensitivity</defName>
             <chance>20</chance>
           </li>
           <li>
-            <defName>PsychicSensitivity</defName>
-            <degree>-2</degree>
+            <defName Degree="-2">PsychicSensitivity</defName>
             <chance>20</chance>
           </li>
           <li>

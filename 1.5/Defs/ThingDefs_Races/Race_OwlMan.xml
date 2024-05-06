@@ -42,8 +42,7 @@
             <chance>70</chance>
           </li>
           <li>
-            <defName>Beauty</defName>
-            <degree>1</degree>
+            <defName Degree="1">Beauty</defName>
             <chance>20</chance>
           </li>
           <li>

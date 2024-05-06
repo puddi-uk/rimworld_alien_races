@@ -46,9 +46,8 @@
             <chance>20</chance>
           </li>
           <li>
-            <defName>ShootingAccuracy</defName>
-            <degree>-1</degree>
-            <chance>10</chance>
+            <defName Degree="-1">ShootingAccuracy</defName>
+              <chance>10</chance>
           </li>
         </forcedRaceTraitEntries>
         <disallowedTraits>
