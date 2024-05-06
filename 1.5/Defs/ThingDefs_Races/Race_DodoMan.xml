@@ -79,8 +79,8 @@
         </chemicalSettings>
       </generalSettings>
       <graphicPaths>
-        <head>Things/Dodo/Heads/</head>
-        <body>Things/Dodo/Body/</body>
+        <head>avian_races_puddi_edition/Things/Dodo/Heads/</head>
+        <body>avian_races_puddi_edition/Things/Dodo/Body/</body>
         <skinShader>Cutout</skinShader>
       </graphicPaths>
       <styleSettings>

@@ -100,8 +100,8 @@
         </chemicalSettings>
       </generalSettings>
       <graphicPaths>
-        <head>Things/Cassowary/Heads/</head>
-        <body>Things/Cassowary/Body/</body>
+        <head>avian_races_puddi_edition/Things/Cassowary/Heads/</head>
+        <body>avian_races_puddi_edition/Things/Cassowary/Body/</body>
         <skinShader>Cutout</skinShader>
       </graphicPaths>
       <styleSettings>
