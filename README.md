@@ -19,6 +19,6 @@ A very quick and dirty update of [Mlei's Avian Races (Continued)](https://github
     * Correct installation:  `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\avian_races_puddi_edition`.
 1. Launch Rimworld.
 1. Open the Mods menu.
-1. Enabled "Avian Races (Puddi Edition).
+1. Enable "Avian Races (Puddi Edition)".
 
 _Note: I have no plans to make this available on the Steam Workshop at this time._
