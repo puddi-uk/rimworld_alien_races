@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="BirdPlayerFactionBase">
+    <factionIconPath>WorldIcon/BirdIcon1</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     15)</li>
+        <li>(100,   120)</li>
+        <li>(1000,  500)</li>
+        <li>(2000,  800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+  </FactionDef>
+  <FactionDef ParentName="BirdPlayerFactionBase">
+    <defName>Owl_PlayerColony</defName>
+    <label>Owl New Arrivals</label>
+    <description>A colony of recently-arrived off-worlders.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Owl_Colonist</basicMemberKind>
+    <pawnSingular>Owl_colonist</pawnSingular>
+    <pawnsPlural>Owl_colonists</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  <FactionDef ParentName="BirdPlayerFactionBase">
+    <defName>Vulture_PlayerColony</defName>
+    <label>Vulture New Arrivals</label>
+    <description>A colony of recently-arrived off-worlders.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Vulture_Colonist</basicMemberKind>
+    <pawnSingular>Vulture_colonist</pawnSingular>
+    <pawnsPlural>Vulture_colonists</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  <FactionDef ParentName="BirdPlayerFactionBase">
+    <defName>Chicken_PlayerTribe</defName>
+    <label>Chicken New Tribe</label>
+    <description>A small tribe.</description>
+    <isPlayer>true</isPlayer>
+    <pawnSingular>Chicken_tribesman</pawnSingular>
+    <pawnsPlural>Chicken_tribespeople</pawnsPlural>
+    <basicMemberKind>Chicken_Tribesperson</basicMemberKind>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <forageabilityFactor>1.7</forageabilityFactor>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Tribal</li>
+    </recipePrerequisiteTags>
+  </FactionDef>
+  <FactionDef ParentName="BirdPlayerFactionBase">
+    <defName>Dodo_PlayerTribe</defName>
+    <label>Dodo New Tribe</label>
+    <description>A small tribe.</description>
+    <isPlayer>true</isPlayer>
+    <pawnSingular>Dodo_tribesman</pawnSingular>
+    <pawnsPlural>Dodo_tribespeople</pawnsPlural>
+    <basicMemberKind>Dodo_Tribesperson</basicMemberKind>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <forageabilityFactor>1.7</forageabilityFactor>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Tribal</li>
+    </recipePrerequisiteTags>
+  </FactionDef>
+  <FactionDef ParentName="BirdPlayerFactionBase">
+    <defName>Cassowary_PlayerTribe</defName>
+    <label>Cassowary New Tribe</label>
+    <description>A small tribe.</description>
+    <isPlayer>true</isPlayer>
+    <pawnSingular>Cassowary_tribesman</pawnSingular>
+    <pawnsPlural>Cassowary_tribespeople</pawnsPlural>
+    <basicMemberKind>Cassowary_Tribesperson</basicMemberKind>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <forageabilityFactor>1.7</forageabilityFactor>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Tribal</li>
+    </recipePrerequisiteTags>
+  </FactionDef>
+  <FactionDef ParentName="BirdPlayerFactionBase">
+    <defName>Parrot_PlayerColony</defName>
+    <label>Parrot New Arrivals</label>
+    <description>A colony of recently-arrived off-worlders.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Parrot_Pirate</basicMemberKind>
+    <pawnSingular>Parrot_Pirate</pawnSingular>
+    <pawnsPlural>Parrot_Pirate</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <allowedCultures>
+      <li>Kriminul</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  <FactionDef ParentName="BirdPlayerFactionBase">
+    <defName>Penguin_PlayerColony</defName>
+    <label>Penguin New Arrivals</label>
+    <description>A colony of recently-arrived off-worlders.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Penguin_Pirate</basicMemberKind>
+    <pawnSingular>Penguin_Pirate</pawnSingular>
+    <pawnsPlural>Penguin_Pirate</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <allowedCultures>
+      <li>Kriminul</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>
