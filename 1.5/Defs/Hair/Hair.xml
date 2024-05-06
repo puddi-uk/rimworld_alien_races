@@ -4,7 +4,7 @@
     <defName>BirdBlank</defName>
     <label>Blank</label>
     <hairGender>Any</hairGender>
-    <texPath>Things/Hair/Bird_Blank</texPath>
+    <texPath>avian_races_puddi_edition/Things/Hair/Bird_Blank</texPath>
     <styleTags>
       <li>Birdman</li>
     </styleTags>
@@ -13,7 +13,7 @@
     <defName>BirdMohawk</defName>
     <label>Mohawk</label>
     <hairGender>Any</hairGender>
-    <texPath>Things/Hair/Bird_Mohawk</texPath>
+    <texPath>avian_races_puddi_edition/Things/Hair/Bird_Mohawk</texPath>
     <styleTags>
       <li>Birdman</li>
     </styleTags>
@@ -22,7 +22,7 @@
     <defName>Bird_Spikes</defName>
     <label>Spikes</label>
     <hairGender>Any</hairGender>
-    <texPath>Things/Hair/Bird_Spikes</texPath>
+    <texPath>avian_races_puddi_edition/Things/Hair/Bird_Spikes</texPath>
     <styleTags>
       <li>Birdman</li>
     </styleTags>
@@ -31,7 +31,7 @@
     <defName>BirdScorpiontail</defName>
     <label>scorpiontail</label>
     <hairGender>Any</hairGender>
-    <texPath>Things/Hair/Bird_Scorpiontail</texPath>
+    <texPath>avian_races_puddi_edition/Things/Hair/Bird_Scorpiontail</texPath>
     <styleTags>
       <li>Birdman</li>
     </styleTags>
@@ -40,7 +40,7 @@
     <defName>BirdTuft</defName>
     <label>tuft</label>
     <hairGender>Any</hairGender>
-    <texPath>Things/Hair/Bird_Tuft</texPath>
+    <texPath>avian_races_puddi_edition/Things/Hair/Bird_Tuft</texPath>
     <styleTags>
       <li>Birdman</li>
     </styleTags>

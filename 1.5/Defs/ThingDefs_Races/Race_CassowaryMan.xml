@@ -224,6 +224,9 @@
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>70</lifeExpectancy>
+      <bloodDef>Filth_Blood</bloodDef>
+      <renderTree>Humanlike</renderTree>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
       <leatherDef>Leather_Human</leatherDef>
       <useMeatFrom>Human</useMeatFrom>
       <nameCategory>HumanStandard</nameCategory>
@@ -235,6 +238,9 @@
       <meatMarketValue>0.8</meatMarketValue>
       <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <canBecomeShambler>true</canBecomeShambler>
+      <knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+      <anomalyKnowledge>1</anomalyKnowledge>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -319,5 +325,16 @@
       <li>Euthanize</li>
       <li>Anesthetize</li>
     </recipes>
+    <comps>
+      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+        <getsColdContainmentBonus>true</getsColdContainmentBonus>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresImprisonment>true</requiresImprisonment>
+      </li>
+    </comps>
   </AlienRace.ThingDef_AlienRace>
 </Defs>
