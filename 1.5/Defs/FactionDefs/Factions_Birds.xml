@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <FactionDef Name="BirdFactionBase" Abstract="True" ParentName="FactionBase">
-    <factionIconPath>WorldIcon/BirdIcon1</factionIconPath>
+    <factionIconPath>avian_races_puddi_edition/WorldIcon/BirdIcon1</factionIconPath>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
   </FactionDef>
   <FactionDef ParentName="BirdFactionBase">
