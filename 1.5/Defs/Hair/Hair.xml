@@ -9,6 +9,7 @@
       <li>Birdman</li>
     </styleTags>
   </HairDef>
+<!-- Birds with hairstyles look bizare...
   <HairDef>
     <defName>BirdMohawk</defName>
     <label>Mohawk</label>
@@ -45,4 +46,5 @@
       <li>Birdman</li>
     </styleTags>
   </HairDef>
+-->
 </Defs>

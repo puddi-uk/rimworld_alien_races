@@ -71,7 +71,6 @@
             <li>Female</li>
             <li>Hulk</li>
             <li>Male</li>
-            <li>Thin</li>
           </bodyTypes>
         </alienPartGenerator>
         <chemicalSettings>
