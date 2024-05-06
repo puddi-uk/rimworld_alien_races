@@ -31,7 +31,7 @@
   <AlienRace.ThingDef_AlienRace ParentName="OwlPawn">
     <defName>Alien_Owl</defName>
     <label>Owl Man</label>
-    <description>Its cute.</description>
+    <description>Wise and beautiful, mortal enemies of crows.</description>
     <alienRace>
       <generalSettings>
         <maleGenderProbability>0.5</maleGenderProbability>
