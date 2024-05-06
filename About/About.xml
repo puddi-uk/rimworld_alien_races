@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Avian Races (Continued)</name>
-  <packageId>Mlie.AvianRaces</packageId>
-  <author>Bozu</author>
-  <url>https://github.com/emipa606/AvianRaces</url>
+  <name>Avian Races (Puddi Edition)</name>
+  <packageId>Puddi.AvianRaces</packageId>
+  <author>Puddi_UK</author>
+  <url>https://github.com/puddi-uk/rimworld_avian_races_puddi_edition</url>
   <supportedVersions>
-    <li>1.0</li>
-    <li>1.1</li>
-    <li>1.2</li>
-    <li>1.3</li>
-    <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -22,69 +18,23 @@
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
-Update of Bozus mod
-https://steamcommunity.com/sharedfiles/filedetails/?id=1514158118
+  <description>
+    Avian Races (Puddi Edition) is an update of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2596555190]Mlie's Avian Races (Continued) mod[/url], which was an update of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1514158118]Bozu's original Avian Races mod[/url].
 
-[img]https://i.imgur.com/KFjAmff.png[/img]
+    Unfortunately, Avian Races (Puddi Edition) does not support versions of Rimworld below 1.5.
 
-[table]
-    [tr]
-        [td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/AvianRaces][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-    [/tr]
-    [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
-    [/tr]
-[/table]
-	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
-Add 7 Bird furry races, and 7 Factions.
-Owl, Cassowary, Chicken, Vulture, Parrot, dodo, penguin.
+    The mod adds seven avian races and factions:
+    [ul]
+      [li]Owls[/li]
+      [li]Cassowarys[/li]
+      [li]Chickens[/li]
+      [li]Vultures[/li]
+      [li]Parrots[/li]
+      [li]Dodos[/li]
+      [li]Penguins[/li]
+    [/ul]
 
-Japanese translation. 日本語で使用できます。
-
-One Faction version(7 races and 1 Factions)
-https://steamcommunity.com/sharedfiles/filedetails/?id=1582200954
-
---------------
-
-Require Mod
-Humanoid Alien Races 2.0
-http://steamcommunity.com/sharedfiles/filedetails/?id=839005762
-
---------------
-Update 1.21
--Error fix
-
-Update 1.20
--Rimworld 1.2
-
-Update 1.10
--Rimworld 1.1
-
-Update 1.02
--Avian corpses dont drop "Avian meat" at butchered.
--Avian corpses drop "Human meat" at butchered.
--Rename folder and file, lowercase to upper case.
-
-Update 1.01
--Take in file for Japanese translation.
--Seven factions have unique name.
--bag fix (Human come from Avian Faction in exile colonists and escape pod events.
-
-[img]https://i.imgur.com/PwoNOj4.png[/img]
-[list]
-[*] See if the the error persists if you just have this mod and its requirements active.
-[*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
-[*] For best support, please use the Discord-channel for error-reporting.
-[*] Do not report errors by making a discussion-thread, I get no notification of that.
-[*] If you have the solution for a problem, please post it to the GitHub repository.
-[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
-
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2596555190][img]https://img.shields.io/github/v/release/emipa606/AvianRaces?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.4.4</modVersion>
+    [b]Avian Races (Puddi Edition) requires the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=839005762]Humanoid Alien Races 2.0 mod[/url].[/b]
+</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.0.0</modVersion>
 </ModMetaData>

@@ -1,16 +1,3 @@
-# Changelog for AvianRaces
+# Changelog for Avian Races (Puddi Edition)
 
-1.4.4 - Last update, added end-of-life message
-
-
-1.4.3 - No more invisible pawns
-
-
-1.4.2 - Fixed gene-restrictions to not affect visuals, thanks to Razar on the HAR-discord
-
-
-1.4.1 - Mod updated for 1.4 and passed autotests
-
-
-1.0.0.0 - First publish
-
+1.0 Initial baseline.

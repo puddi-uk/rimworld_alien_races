@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicBeak</defName>
+    <label>bionic beak</label>
+    <description>An advanced artificial beak.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>
